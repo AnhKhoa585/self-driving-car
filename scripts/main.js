@@ -10,7 +10,7 @@ const laneCount = 6;
 const road = new Road(carCanvas.width / 2, carCanvas.width * 0.87, laneCount);
 const carSpeed = 9;
 const training = true;
-const maxTrial = 5;
+const maxTrial = 8;
 
 var genCount = 1;
 var drawSensor = false;
