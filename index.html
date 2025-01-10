@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>self driving car from scratch - no black box</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons" style="user-select: none;">
+        <button onclick="discard()">🗑️</button>
+        <button onclick="window.location.reload();">
+            <img src="assets/reload.png" style="width: 70%; display: block;">
+        </button>
+        <button onclick="switchSensor()">
+            <img src="assets/motion-sensor.png" style="width: 100%; display: block;">
+        </button>
+    </div>
+    <canvas id="networkCanvas"></canvas>
+</body>
+<script src="scripts/utils.js"></script>
+<script src="scripts/visualizer.js"></script>
+<script src="scripts/network.js"></script>
+<script src="scripts/sensor.js"></script>
+<script src="scripts/road.js"></script>
+<script src="scripts/car.js"></script>
+<script src="scripts/controls.js"></script>
+<script src="scripts/main.js"></script>
+</html>
