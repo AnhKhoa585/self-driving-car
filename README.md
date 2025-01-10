@@ -2,6 +2,8 @@
 ## Introduction
 This project explores the implementation of a Genetic Algorithm to train a virtual self-driving car with a simple neural network, focusing on the crossover operator, entirely in vanilla JavaScript (no external libraries). The objective is for the car to navigate a simulated environment, avoid obstacles, and complete a track autonomously, leveraging the power of genetic optimization.
 
+You can try it out right [here](https://anhkhoa585.github.io/self-driving-car/).
+
 <p align="center">
   <img src="demo/demo_1.gif" width="400">
   <img src="demo/demo_2.gif" width="400">
